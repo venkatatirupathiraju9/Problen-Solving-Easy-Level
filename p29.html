@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <!-- Program to find a missing number
+    Input:  n=5(length of array), arr= [5,3,1,4]
+    Output: 2 is missing
+    Using loop only(you can not use predefined function) -->
+
+
+    <script>
+
+        let arr = [5,3,1,4];
+        let n = 5;
+        
+        for (i=1; i<=n; i++) {
+            for (j=0; j<arr.length; j++) {
+                if (arr[j]==i) {
+                    c++;
+                    break;
+                }else {
+                    c = 0;  
+                }
+            }
+            if (c==0) {
+                    console.log(i);
+                }
+        }
+        
+
+    </script>
+    
+</body>
+</html>

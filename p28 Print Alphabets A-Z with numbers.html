@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 1) Program to Display Characters from A to Z Using Loop with count.
+        Output: A1 B2 C3 D4 E5 F6 ……. Z26 
+
+    2) Program to Display Characters from a to Z Using Loop with count.
+    Output: a1 b2 c3 d4 e5 f6 ……. Z26.  -->
+
+    <script>
+
+// debugger
+
+    let letters="";
+    let count = 1;
+    for (i=65; i<=90; i++) {
+        letters = letters+String.fromCharCode(i)+count +" "; 
+        count++;
+        
+    }
+    console.log(letters);
+
+
+// From Z26,Y25....B2,A1
+        // let letters = "";
+        // let count = 26;
+        // for (i=90; i>=65; i--) {
+        //     letters+=String.fromCharCode(i)+count+" ";
+        //     count--
+        // }
+        // console.log(letters);
+
+
+//   2)From a1 b2 c3 d4 e5 f6 ……. Z26.
+    // let alphabets = "";
+    // let count = 1;
+    //     for (i=97; i<=122; i++) {
+    //         alphabets = alphabets+String.fromCharCode(i)+count+" ";
+    //         count++; 
+    //     }
+    //     console.log(alphabets);
+
+
+// From z26,y25,....b2,a1
+// let letters = "";
+// let count =26;
+// for(i=122; i>=97; i--) {
+//     letters+=String.fromCharCode(i)+count+" ";
+//     count--
+// }
+// console.log(letters);
+
+
+
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>

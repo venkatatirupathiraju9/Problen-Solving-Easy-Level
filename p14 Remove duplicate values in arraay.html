@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+
+
+
+
+
+        let a=[1,0,1,0];
+        let b=[];
+        let c=0;
+        let f=0;
+        for (i=0;i<a.length;i++) {
+            for (j=0;j<b.length;j++) {
+                if (a[i]==b[j]) {
+                    c++;
+                     break;
+                }  else {
+                c=0 }        
+             } 
+             if(c==0) {
+                b[f]=a[i];                              
+                f++
+             }
+        }
+        console.log(b);
+
+
+        // let a=[a,b,e,a];
+        // let b=[];
+        // let c=0;
+        // let f=0;
+
+        // for (i=0;i<a.length;i++) {
+        //     for (j=0;j<b.length;j++) {
+        //         if (a[i]==b[j]) {
+        //             c++;
+        //              break;
+        //         }  else {
+        //         c=0 }        
+        //      } 
+        //      if(c==0) {
+        //         b[f]=a[i];
+        //         f++
+        //      }
+        // }
+        // console.log(b);
+ 
+ 
+    </script>
+    
+</body>
+</html>

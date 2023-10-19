@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let n=[2,3,1,5,4];
+        let n1=[];
+
+        for (let i in n) {
+            for (let j in n) {
+                if (n[i]<n[j]) {
+                    n1=n[i];
+                    n[i]=n[j];
+                    n[j]=n1
+                }
+            }
+        }
+        console.log(n);
+
+    </script>
+    
+</body>
+</html>

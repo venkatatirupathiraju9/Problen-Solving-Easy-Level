@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // let arr1=["a","ccc","bb","dddd"];
+        // let newArr1=" ";
+
+        //     for (i=0;i<arr1.length-1;i++) {
+        //         for (j=0;j<=arr1.lemgth-i-1;j++) {
+
+        //           if (str[i]>str[i+1]) {
+        //                 newArr1=arr1[i];
+        //                 arr1[i]=arr1[i+1];
+        //                 arr1[i+1]=newArr1;
+
+        //           }
+        //         }
+        //     }
+        //     console.log(arr1);
+
+
+            let arr=[7,3,8,1,2];
+        
+        for (i=0;i<arr.length-1;i++) {
+                for (j=0;j<=arr.lemgth-i-1;j++) {
+
+                  if (arr[j]>arr[j+1]) {
+
+                     let newArr=arr[j];
+                        arr[j]=arr[j+1];
+                        arr[j+1]=newArr;
+                  }
+                }
+            }
+            console.log(arr);
+
+
+
+    </script>
+    
+</body>
+</html>

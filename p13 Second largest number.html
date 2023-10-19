@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        var a=[10,30,40,20,50];
+        var b;
+        // var b1;
+        for (let i=0;i<a.length;i++) {
+            for(let j=i+1;j<a.length;j++) {
+                if(a[i]>a[j]){
+                    b=a[i];
+                    a[i]=a[j];
+                    a[j]=b;
+
+                }
+                // else if(a[i-1]<a[j]) {
+                //     b1=a[i];
+                //     a[i]=a[j];
+                //     a[j]=b1;
+                // }
+
+            }
+        }
+        console.log(b);
+        // console.log(b1);
+
+
+
+
+    </script>
+    
+</body>
+</html>

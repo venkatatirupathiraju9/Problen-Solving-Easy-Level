@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+    // Create a function that takes an array of arrays with numbers. Return a new (single) array with the largest numbers of each.
+    // Example:
+    // findLargestNums([[4, 2, 7, 1], [20, 70, 40, 90], [1, 2, 0]]) ➞ [7, 90, 2]
+
+debugger
+    let a=[[4, 2, 7, 1],[20, 70, 40, 90] , [1, 2, 0]];
+    let b=[];
+
+    for (i=0;i<a.length;i++) {
+         max1=a[i][0];
+        for (j=1;j<a[i].length;j++) {
+            if (a[i][j]>max1) {
+                max1=a[i][j];
+            }
+        }
+        b.push(max1);
+    }
+    console.log(b);
+
+
+
+
+    </script>
+    
+</body>
+</html>
